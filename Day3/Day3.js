@@ -27,10 +27,10 @@ function removeDuplicates(arr) {
     return withoutDup;
 }
 // Example usage
-// const numbers = [1, 2, 2, 3, 4, 4, 5];
-// console.log(removeDuplicates(numbers)); // Output: [1, 2, 3, 4, 5]
-// console.log(removeDuplicates([10, 10, 20, 30, 30])); // output : [10,20,30]
-// console.log(removeDuplicates([1, 1, 1, 1, 1, 2, 2, 2, 2, 6, 6, 7, 4, 3, 2])); // output : [1,2,6,7,4,3,2]
+const numbers = [1, 2, 2, 3, 4, 4, 5];
+console.log(removeDuplicates(numbers)); // Output: [1, 2, 3, 4, 5]
+console.log(removeDuplicates([10, 10, 20, 30, 30])); // output : [10,20,30]
+console.log(removeDuplicates([1, 1, 1, 1, 1, 2, 2, 2, 2, 6, 6, 7, 4, 3, 2])); // output : [1,2,6,7,4,3,2]
 // Question 6:
 //  Find the Second Largest Number in an Array
 // Write a TypeScript function named findSecondLargest that takes an array of numbers and returns the second largest number in the array. *Do not use built-in methods* like sort.
