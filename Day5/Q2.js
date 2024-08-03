@@ -1,6 +1,6 @@
 "use strict";
 // *Question 2: Extract First Letters from String Array*
-// Create a function in TypeScript that takes an array of strings (names) as input. The function 
+// Create a function in TypeScript that takes an array of strings (names) as input. The function
 //should return a new array containing the first letter of each name.
 // *Hints:*
 // - Iterate through each name in the array.
@@ -15,6 +15,5 @@ function extractFirstLetters(names) {
     }
     return FirstLettle;
 }
-console.log(extractFirstLetters(['Tehreem', 'Shaheen', 'Namal', 'Hajra']));
-console.log(extractFirstLetters(["Alice", "Bob", "Charlie", "David", "Eve"]));
-//output ["A", "B", "C", "D", "E"]
+console.log(extractFirstLetters(["Tehreem", "Shaheen", "Namal", "Hajra"])); // output ['T','S','N','H']
+console.log(extractFirstLetters(["Alice", "Bob", "Charlie", "David", "Eve"])); //output ["A", "B", "C", "D", "E"]
