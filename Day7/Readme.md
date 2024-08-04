@@ -1,4 +1,4 @@
-#Question 1: OOP Related#
+#Question 1: OOP Related
 
 Create a TypeScript class Book that has properties for title, author, publicationYear, and genre. The class should have methods to:
 1. Display the book details.
@@ -13,7 +13,7 @@ Create a TypeScript class Book that has properties for title, author, publicatio
 - In the isAuthor method, compare the author property with the given author name.
 
 
- #Question 2: Nested Object with Interfaces#
+ #Question 2: Nested Object with Interfaces
 
 Create an interface Person that includes properties for name, age, email, phone, and addresses. The addresses property should be an array of objects, each containing street, city, state, and zipcode. Write a function to find the first person living in a specific city and return their name and email.
 
