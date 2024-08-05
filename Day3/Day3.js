@@ -7,6 +7,7 @@
 // - The function should iterate through the array and check for duplicates manually.
 // - You can use additional arrays or variables to keep track of seen elements.
 // - Do not use any built-in methods like filter, reduce, or Set.
+Object.defineProperty(exports, "__esModule", { value: true });
 // This function removes all duplicate elements
 function removeDuplicates(arr) {
     let withoutDup = [];

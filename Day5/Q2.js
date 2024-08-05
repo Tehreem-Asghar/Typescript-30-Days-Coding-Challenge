@@ -5,6 +5,7 @@
 // *Hints:*
 // - Iterate through each name in the array.
 // - Extract the first letter of each name without using built-in methods.
+Object.defineProperty(exports, "__esModule", { value: true });
 function extractFirstLetters(names) {
     let FirstLettle = [];
     for (let i = 0; i < names.length; i++) {

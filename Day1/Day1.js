@@ -4,6 +4,7 @@
 // 1. Write a function named sumArray that takes an array of numbers as input.
 // 2. The function should return the sum of all numbers in the array.
 // 3. Ensure your function works correctly by testing it with different inputs.
+Object.defineProperty(exports, "__esModule", { value: true });
 // *Example:*
 // - Input: [1, 2, 3, 4, 5]
 // - Output: 15

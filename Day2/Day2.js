@@ -5,6 +5,7 @@
 // Requirements:
 // If the array has only one element, the function should return an array with that element duplicated.
 // Ensure the function handles arrays with a single element correctly.
+Object.defineProperty(exports, "__esModule", { value: true });
 function number(arr) {
     let FirstAndLastElement = [];
     if (arr.length === 0) {

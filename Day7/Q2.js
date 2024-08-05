@@ -1,5 +1,6 @@
 "use strict";
 // Question 2: Nested Object with Interfaces
+Object.defineProperty(exports, "__esModule", { value: true });
 function findPersonbycity(person, city) {
     for (const person of people) {
         for (const address of person.addresses) {
@@ -10,8 +11,7 @@ function findPersonbycity(person, city) {
     }
     return undefined;
 }
-let people = [
-    {
+let people = [{
         name: "Tehreem",
         age: 18,
         email: "tehreem@gmail.com",
@@ -22,5 +22,7 @@ let people = [
         ],
     },
 ];
-console.log(findPersonbycity(people, 'New York'));
-console.log(findPersonbycity(people, 'Karachi'));
+// Test the function with a city that exists in the addresses
+console.log(findPersonbycity(people, 'New York')); // Output: { name: 'Tehreem', email: 'tehreem@gmail.com' }
+// Test the function with a city that does not exist in the addresses
+console.log(findPersonbycity(people, 'Karachi')); // Output: undefined

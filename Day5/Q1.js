@@ -12,6 +12,7 @@
 // 3. *If the lengths of both arrays are the same but elements are different:*
 //    - Make the elements of both arrays the same by adding corresponding elements.
 //    - Merge the arrays and add corresponding elements of the resulting array.
+Object.defineProperty(exports, "__esModule", { value: true });
 function manipulateArrays(arr1, arr2) {
     let result = [];
     // Check if both arrays have the same length

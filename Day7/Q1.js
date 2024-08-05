@@ -1,6 +1,11 @@
 "use strict";
 // Question 1: OOP Related
+Object.defineProperty(exports, "__esModule", { value: true });
 class Book {
+    title;
+    author;
+    publicationyear;
+    genre;
     constructor(title, author, publicationyear, genre) {
         this.title = title;
         this.author = author;

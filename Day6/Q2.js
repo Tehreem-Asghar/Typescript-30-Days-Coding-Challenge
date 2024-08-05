@@ -3,6 +3,7 @@
 // *Task:*
 // Given an array with mixed types of elements, separate them into different
 // arrays based on their type (number, string, boolean).
+Object.defineProperty(exports, "__esModule", { value: true });
 function mixTypeEle(array) {
     let stringEle = [];
     let numberEle = [];

@@ -4,6 +4,7 @@
 // Write a TypeScript function that takes an array of numbers as input and returns a new array
 // containing only the duplicate numbers from the original array. If there are no duplicates,
 //return an empty array.
+Object.defineProperty(exports, "__esModule", { value: true });
 function findDuplicates(numbers) {
     let duplicateElements = [];
     let withoutDuplicate = [];

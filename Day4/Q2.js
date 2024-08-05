@@ -7,6 +7,7 @@
 // Output Should print:
 // Sara - Age: 22, Marks: 85
 // John - Age: 21, Marks: 90
+Object.defineProperty(exports, "__esModule", { value: true });
 function printTopStudents(students) {
     for (let i = 0; i < students.length; i++) {
         if (students[i].marks > 80) {

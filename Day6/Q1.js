@@ -6,6 +6,7 @@
 //    - Write functions for each operation: add, subtract, multiply, and divide.
 //    - Implement a function calculate that takes two numbers and an operation (as a string)
 //and returns the result of the operation.
+Object.defineProperty(exports, "__esModule", { value: true });
 function calculator(num1, num2, operation) {
     let Operation;
     switch (operation) {
