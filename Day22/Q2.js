@@ -3,8 +3,6 @@
 // Given a base number b and an exponent e, your task is to calculate b raised to the power
 // of e without using built-in methods like Math.pow.
 Object.defineProperty(exports, "__esModule", { value: true });
-// *Example:*
-// typescript
 function calculatePower(b, e) {
     let calculatePower = b ** e;
     return calculatePower;
